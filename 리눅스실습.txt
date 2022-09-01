@@ -1,0 +1,51 @@
+C언어로 이루어짐
+Shell
+Kernel 
+Utility
+
+리눅스 용어
+dev = 기타장비
+etc = 환경설정
+home = 홈페이지
+lib32/64 = 라이브러리
+media = 미디어파일
+mnt = 가동중인 파일
+opt = 옵션
+proc = 환경구성정보
+root = 슈퍼계정아이디
+usr = 유저정보
+
+
+~$ - 슈퍼 유저로 전환
+
+su 슈퍼유저 명령어
+
+su : Authentication failure - 슈퍼 유저의 비밀번호가 지정되지 않았음
+~$ sudo passwd root - 슈퍼 유저의 비밀번호 지정
+exit - 일반 유저로 전환
+
+ls -al : 현재 디렉토리의 상세 목록
+
+cd .. : 상위 디렉토리로 이동
+
+cd 디렉토리명 - 해당 서브디렉토리로 이동
+
+
+편집기(vi, vim, emacs...)
+vi 파일명 : 해당 파일 vi편집기로 편집
+	i : 삽입모드
+	------ 편집완료 -----
+	esc 키 :wq - 빠져나가기
+
+cat > 파일명 - 해당 파일 생성
+	해당 내용 입력
+	Ctrl + Z
+
+cat 파일명 - 해당 파일 내용 보기
+
+
+~$ sudo apt update - 모든 패키지나 프로그램을 설치 전에 반드시 해야함
+# apt update
+# apt search vsftpd - vsftpd 찾기
+# apt install vsftpd - vsftpd 설치
+# service vsftpd status
